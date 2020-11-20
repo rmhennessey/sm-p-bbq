@@ -1,0 +1,15 @@
+#sm-nav .navbar .navbar-expand-lg {
+  background-color: white;
+}
+#sm-nav-brand {
+  color: #212a2f;
+}
+#sm-nav-btn {
+  border: none;
+}
+#sm-nav-btn span {
+  color: #e55934;
+}
+#sm-nav-btn span :hover {
+  color: gray;
+}
