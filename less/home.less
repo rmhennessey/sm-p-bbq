@@ -1,6 +1,18 @@
-#sm-nav .navbar .navbar-expand-lg {
+.nav-container {
 	background-color: white;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 113;
 }
+
+// #sm-nav .navbar .navbar-expand-lg {
+// 	background-color: white;
+// 	position: fixed;
+// 	top: 0;
+// 	width: 100%;
+// 	z-index: 113;
+// }
 
 #sm-nav-brand {
 	display: flex;
@@ -77,6 +89,7 @@
 
 	:hover {
 		color: #e55934;
+		text-decoration: underline black;
 	}
 }
 
@@ -103,6 +116,7 @@
 
 	:hover {
 		color: #e55934;
+		text-decoration: underline black;
 	}
 }
 
@@ -145,4 +159,34 @@
 		display: none !important;
 		flex-basis: auto;
 	}
+}
+
+.banner {
+	height: 40px;
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+	padding: 0px 12px 2px;
+	background-color: rgb(113, 119, 122);
+}
+
+.banner-message {
+	margin-top: 3px;
+	color: rgb(255, 255, 255);
+	font-size: 11px;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	line-height: 1.5;
+	text-decoration: none;
+}
+
+.byeByeBanner {
+	display: none;
+}
+
+#main {
+	background-color: #e55934;
+	height: 3000px;
 }
