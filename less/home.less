@@ -3,14 +3,23 @@
 }
 
 #sm-nav-brand {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 33%;
+	text-align: center;
+}
+
+#sm-nav-brand-logo {
 	color: #212a2f;
 	font-size: 1.7rem;
 	margin: auto;
-	width: 33%;
-	text-align: center;
 	margin-bottom: 0px;
 	padding: 0px;
-	text-decoration: underline #e55934;
+	margin-right: 0;
+	padding-top: 5px;
+	margin-left: 0px;
+	// text-decoration: underline #e55934;
 
 	@media @phone {
 		display: flex;
@@ -21,12 +30,39 @@
 		line-height: inherit;
 		white-space: nowrap;
 	}
+
+	@media @tablet {
+		display: flex;
+		padding-top: 0.3125rem;
+		padding-bottom: 0.3125rem;
+		margin-left: 1px;
+		font-size: 1.25rem;
+		line-height: inherit;
+		white-space: nowrap;
+	}
+}
+
+#sm-nav-brand hr {
+	border: 0;
+	margin-top: 1px;
+	border-top: 2px solid #e55934;
+	width: 140px;
+
+	@media @phone {
+		margin-left: 13px;
+		border-top: 2px solid #e55934;
+		width: 130px;
+		margin-top: 1px;
+	}
 }
 
 #nav-left {
 	width: 33%;
 
 	@media @phone {
+		display: none;
+	}
+	@media @tablet {
 		display: none;
 	}
 }
@@ -51,6 +87,9 @@
 #nav-right {
 	width: 33%;
 	@media @phone {
+		display: none;
+	}
+	@media @tablet {
 		display: none;
 	}
 }
@@ -87,20 +126,22 @@
 	}
 }
 
-// .navbar-toggler {
-// 	@media @laptop {
-// 		display: none;
-// 	}
-// }
-
-// #navbarNav {
-// 	@media @laptop {
-// 		display: none;
-// 	}
-// }
+#sm-nav-btn {
+	@media (min-width: 769px) {
+		display: none !important;
+		flex-basis: auto;
+	}
+}
 
 .navbar-expand-lg .navbar-collapse {
 	@media (min-width: 992px) {
+		display: none !important;
+		flex-basis: auto;
+	}
+}
+
+.navbar-expand-lg .navbar-collapse {
+	@media (min-width: 768px) {
 		display: none !important;
 		flex-basis: auto;
 	}
