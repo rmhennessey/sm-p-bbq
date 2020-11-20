@@ -9,6 +9,7 @@
   text-align: center;
   margin-bottom: 0px;
   padding: 0px;
+  text-decoration: underline #e55934;
 }
 @media (max-width: 500px) {
   #sm-nav-brand {
@@ -37,6 +38,9 @@
   margin-bottom: 0px;
   padding-left: 0px;
 }
+#nav-left ul :hover {
+  color: #e55934;
+}
 #nav-left a {
   color: #212a2f;
 }
@@ -55,8 +59,14 @@
   justify-content: space-evenly;
   margin-bottom: 0px;
 }
+#nav-right ul :hover {
+  color: #e55934;
+}
 #nav-right a {
   color: #212a2f;
+}
+#nav-right a :hover {
+  color: #e55934;
 }
 #sm-nav-btn {
   border: none;
@@ -66,4 +76,10 @@
 }
 #sm-nav-btn span :hover {
   color: gray;
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: none !important;
+    flex-basis: auto;
+  }
 }
