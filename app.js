@@ -16,3 +16,7 @@ window.addEventListener('scroll', function () {
 		showFob.classList.add('email-button-hidden')
 	}
 })
+
+$(function () {
+	$('[data-toggle="tooltip"]').tooltip()
+})
