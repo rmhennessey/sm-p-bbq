@@ -214,8 +214,42 @@
   margin-left: 2rem;
   margin-bottom: 35px;
 }
-.review-cards {
+@media (max-width: 500px) {
+  .review-container h3 {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+#review-cards {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+@media (max-width: 500px) {
+  #review-cards {
+    flex-direction: column;
+  }
+}
+#review-cards .card {
+  width: 30%;
+}
+@media (max-width: 500px) {
+  #review-cards .card {
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+#jumbo-menu {
+  background-image: url('../assets/menu_assorted.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  margin-top: 60px;
+}
+#carouselMenu {
+  width: 75%;
+  margin: auto;
 }

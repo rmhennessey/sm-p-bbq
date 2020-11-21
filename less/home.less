@@ -210,10 +210,10 @@
 	background-color: transparent;
 }
 
-#intro-hero {
-	// margin-top: 15px;
-	// height: 70vh;
-}
+// #intro-hero {
+// 	margin-top: 15px;
+// 	height: 70vh;
+// }
 
 #intro-hero img {
 	width: 100%;
@@ -246,10 +246,44 @@
 .review-container h3 {
 	margin-left: 2rem;
 	margin-bottom: 35px;
+
+	@media @phone {
+		margin-left: 0;
+		text-align: center;
+	}
 }
 
-.review-cards {
+#review-cards {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+
+	@media @phone {
+		flex-direction: column;
+	}
+
+	.card {
+		width: 30%;
+
+		@media @phone {
+			width: 90%;
+			margin: auto;
+			margin-top: 15px;
+			margin-bottom: 15px;
+		}
+	}
+}
+
+#jumbo-menu {
+	background-image: url('../assets/menu_assorted.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+	margin-top: 60px;
+}
+
+#carouselMenu {
+	width: 75%;
+	margin: auto;
 }
