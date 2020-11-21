@@ -168,6 +168,8 @@
 #main {
   background-color: #e55934;
   height: 3000px;
+  display: flex;
+  flex-direction: column;
 }
 .email-button-hidden {
   display: none !important;
@@ -179,7 +181,36 @@
   font-size: 3em;
   color: white;
 }
-#email-fob span {
-  font-size: 3em;
+.jumbotron {
+  margin-bottom: 0.5rem;
+  background-color: transparent;
+}
+#intro-hero img {
+  width: 100%;
+  height: auto;
+}
+#intro-hero h1 {
+  position: absolute;
+  bottom: 30px;
+  left: 40px;
   color: white;
+}
+#review {
+  display: flex;
+  flex-direction: column;
+}
+.review-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 95%;
+}
+.review-container h3 {
+  margin-left: 2rem;
+  margin-bottom: 35px;
+}
+.review-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
