@@ -169,3 +169,17 @@
   background-color: #e55934;
   height: 3000px;
 }
+.email-button-hidden {
+  display: none !important;
+}
+.email-button-show span {
+  position: fixed;
+  bottom: 12px;
+  right: 20px;
+  font-size: 3em;
+  color: white;
+}
+#email-fob span {
+  font-size: 3em;
+  color: white;
+}
