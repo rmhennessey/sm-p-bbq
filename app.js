@@ -17,6 +17,7 @@ window.addEventListener('scroll', function () {
 	}
 })
 
+// Tooltip functionality
 $(function () {
 	$('[data-toggle="tooltip"]').tooltip()
 })

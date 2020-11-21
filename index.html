@@ -22,7 +22,25 @@
 
     <link rel="stylesheet" href="css/index.css" />
 
+    		<!-- Mailchimp -->
+		<link
+        href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css"
+        rel="stylesheet"
+        type="text/css"
+    />
+    <style type="text/css">
+        #mc_embed_signup {
+            background: #fff;
+            clear: left;
+            font: 14px Helvetica, Arial, sans-serif;
+        }
+        /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    </style>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+
 
     <title>Smokey Moses | Wood-Fired Pizza & BBQ | Hanover, NH</title>
 </head>
@@ -119,11 +137,111 @@
     
 
  
-    <button id='email-button' type="button" class="btn email-button-hidden">
-        <span data-toggle="tooltip" data-placement="left" title="Join Our Pizza Party">
+    <button id='email-button' type="button" class="btn email-button-hidden" data-toggle="modal" data-target="#exampleModal">
+        <span data-toggle="tooltip" data-placement="left" title="Pssst...we have a secret 🤫">
         <i class="fas fa-pizza-slice"></i>
     </span>
     </button>
+    <!-- Modal -->
+<!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">🍕 Join the Party 🍕</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <p>Join the Smokey Moses Community & Receive 10% Off Every Order 👇</p>
+            <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <button type="submit" class="btn btn-primary">Join Now</button>
+              </form>
+        </div>
+        <div class="modal-footer">
+          <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button> -->
+        <!-- </div>
+      </div>
+    </div>
+  </div> --> 
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">🍕 Join the Party 🍕</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <p>Join the Smokey Moses Community & Receive 10% Off Every Order 👇</p>
+           				<!-- Begin Mailchimp Signup Form -->
+				<div id="mc_embed_signup">
+					<form
+						action="https://gmail.us17.list-manage.com/subscribe/post?u=716a751d840a99fc15c20f69e&amp;id=b61b33fef0"
+						method="post"
+						id="mc-embedded-subscribe-form"
+						name="mc-embedded-subscribe-form"
+						class="validate"
+						target="_blank"
+						novalidate
+					>
+						<div id="mc_embed_signup_scroll" class="email-form">
+							<!-- <label for="mce-EMAIL"></label> -->
+							<input
+								type="email"
+								value=""
+								name="EMAIL"
+								class="email"
+								id="mce-EMAIL"
+								placeholder="Enter your email address"
+                                required
+                                style="width: 100%;
+                                height: 40px;
+                                margin-bottom: 10px;"
+							/>
+							<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+							<div style="position: absolute; left: -5000px" aria-hidden="true">
+								<input
+									type="text"
+									name="b_716a751d840a99fc15c20f69e_b61b33fef0"
+									tabindex="-1"
+                                    value=""
+								/>
+							</div>
+							<div class="clear">
+								<input
+									type="submit"
+									value="Sign Up"
+									name="subscribe"
+									id="mc-embedded-subscribe"
+                                    class="button"
+                                    style=" border-radius: 5px;
+                                    height: 40px;
+                                    background-color: #e55934;
+                                    border: .5px solid #212a2f; width: 25%;"
+								/>
+							</div>
+						</div>
+					</form>
+				</div>
+
+				<!--End mc_embed_signup-->
+        </div>
+        <div class="modal-footer">
+          <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
     
 
