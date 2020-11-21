@@ -200,6 +200,10 @@
   left: 40px;
   color: white;
 }
+#local {
+  height: 400px;
+  background-color: white;
+}
 #review {
   display: flex;
   flex-direction: column;
