@@ -151,7 +151,7 @@
   -webkit-box-pack: center;
   justify-content: center;
   padding: 0px 12px 2px;
-  background-color: #71777a;
+  background-color: #212a2f;
 }
 .banner-message {
   margin-top: 3px;
@@ -201,8 +201,10 @@
   color: white;
 }
 #local {
-  height: 400px;
+  height: 80vh;
   background-color: white;
+  margin-top: 90px;
+  margin-bottom: 90px;
 }
 #review {
   display: flex;
