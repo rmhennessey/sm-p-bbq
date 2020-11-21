@@ -1,13 +1,12 @@
-const hideBanner = document.getElementById('main-nav')
+// Hide banner on scroll
+window.addEventListener('scroll', function () {
+	const scrollPos = window.scrollY
 
-const scrollPos = window.scrollY
-
-function hiddenBanner() {
 	const hideMe = document.getElementById('banner-element')
-	hideMe.classList.add('byeByeBanner')
-}
 
-if (scrollPos > 60) {
-	hiddenBanner()
-	// console.log('hitting')
-}
+	if (scrollPos > 200) {
+		hideMe.classList.add('byeByeBanner')
+	} else {
+		hideMe.classList.remove('byeByeBanner')
+	}
+})
