@@ -220,6 +220,8 @@
   margin-left: 1rem;
   margin-bottom: 35px;
   color: white;
+  font-size: 2.5rem;
+  font-weight: 300;
 }
 @media (max-width: 500px) {
   .review-container h2 {
@@ -257,6 +259,34 @@
   margin-top: 60px;
 }
 #carouselMenu {
-  width: 75%;
+  width: 65%;
   margin: auto;
+}
+#main-story {
+  background-color: white;
+}
+#story {
+  width: 80%;
+  margin: auto;
+  margin-top: 150px;
+}
+.story-intro {
+  background-image: url('../assets/Smokey_Moses_Pizza_BBQ_New_Hampshire.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+.story-intro-card {
+  border: none;
+}
+.story-intro-card h5 {
+  font-size: 62px;
+  text-align: center;
+}
+.story-intro-card a {
+  color: #212a2f;
+}
+.story-intro-card a:hover {
+  color: #e55934;
 }
