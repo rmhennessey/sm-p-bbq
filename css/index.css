@@ -332,7 +332,10 @@
   flex-direction: column;
   margin-bottom: 25px;
 }
-.pizza-intro span {
+.cat-intro {
+  margin-bottom: 25px;
+}
+.cat-intro span {
   color: #e55934;
   font-weight: bold;
 }
@@ -360,4 +363,24 @@
   border-top: 1.5px dotted #e55934;
   margin-left: 0;
   width: 50%;
+}
+.hr-menu-break {
+  border-top: 6px dotted #212a2f;
+  width: 90%;
+}
+.pizza-base {
+  background-image: url('../assets/byo_pizza_base.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  background-size: 400px 400px;
+}
+.pepperoni {
+  background-image: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  background-size: 320px 320px;
 }

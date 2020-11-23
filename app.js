@@ -21,3 +21,20 @@ window.addEventListener('scroll', function () {
 $(function () {
 	$('[data-toggle="tooltip"]').tooltip()
 })
+
+// Add Pizza Toppings
+function clearToppings() {
+	document.getElementById('bigToppings').style.backgroundImage = 'none'
+}
+
+function addPepperoni() {
+	document.getElementById('bigToppings').style.backgroundImage =
+		"url('./assets/byo_pepperoni.png')"
+}
+
+function addCheese() {
+	document.getElementById('bigToppings').style.backgroundImage =
+		"url('./assets/byo_cheese.png'), url('./assets/byo_pepperoni.png')"
+}
+
+// document.getElementById("myDiv").style.backgroundImage = "url('img_tree.png')";
