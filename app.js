@@ -23,18 +23,28 @@ $(function () {
 })
 
 // Add Pizza Toppings
+
+let ingredients = []
+
 function clearToppings() {
+	ingredients = []
 	document.getElementById('bigToppings').style.backgroundImage = 'none'
 }
 
 function addPepperoni() {
-	document.getElementById('bigToppings').style.backgroundImage =
-		"url('./assets/byo_pepperoni.png')"
+	// document.getElementById('bigToppings').style.backgroundImage =
+	// 	"url('./assets/byo_pepperoni.png')"
+	ingredients.push(`url('./assets/byo_pepperoni.png')`)
+	console.log(ingredients)
+	document.getElementById('bigToppings').style.backgroundImage = ingredients
 }
 
 function addCheese() {
-	document.getElementById('bigToppings').style.backgroundImage =
-		"url('./assets/byo_cheese.png'), url('./assets/byo_pepperoni.png')"
+	// document.getElementById('bigToppings').style.backgroundImage =
+	// 	"url('./assets/byo_cheese.png'), url('./assets/byo_pepperoni.png')"
+	ingredients.push(`url('./assets/byo_cheese.png')`)
+	console.log(ingredients)
+	document.getElementById('bigToppings').style.backgroundImage = ingredients
 }
 
 // document.getElementById("myDiv").style.backgroundImage = "url('img_tree.png')";
