@@ -167,7 +167,6 @@
 }
 #main {
   background-color: #e55934;
-  height: 3000px;
   display: flex;
   flex-direction: column;
 }
@@ -176,7 +175,7 @@
 }
 .email-button-show span {
   position: fixed;
-  bottom: 12px;
+  bottom: 105px;
   right: 20px;
   font-size: 3em;
   color: #212a2f;
@@ -297,6 +296,11 @@
 #carouselMenu {
   width: 65%;
   margin: auto;
+}
+#footer {
+  width: 100%;
+  height: 100px;
+  background-color: white;
 }
 #main-story {
   background-color: white;
