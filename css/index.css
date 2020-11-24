@@ -384,3 +384,20 @@
   height: 100%;
   background-size: 300px 300px;
 }
+.byo-intro {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.byo-intro h2 {
+  font-size: 4rem;
+  font-weight: 900;
+  color: #e55934;
+}
+.pie-size {
+  display: flex;
+  flex-direction: row;
+}
+.pie-size p {
+  margin-right: 15px;
+}
