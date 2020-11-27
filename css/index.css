@@ -338,8 +338,13 @@
 }
 #footer {
   width: 100%;
-  height: 100px;
+  height: 90px;
   background-color: white;
+  text-align: center;
+}
+#footer p {
+  padding-top: 20px;
+  color: #e55934;
 }
 #main-story {
   background-color: white;
