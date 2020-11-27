@@ -116,7 +116,7 @@
                     <p>Break out the blueprints and build your own pizza 😎</p>
                 </div>
                 <!-- SELECT PIZZA SIZE -->
-                <div class='pie-size'>
+                <!-- <div class='pie-size'>
                     <p>Select Your Pie Size: </p>
                 <div>
                 <div class="form-check form-check-inline">
@@ -132,52 +132,38 @@
                     <label class="form-check-label" for="largePizza">Large</label>
                   </div>
                 </div>
+                </div> -->
+                <div id="byop-toppings">
+                    <h3>Local Meats</h3>
+                    <div>
+                        <button type="button" class="btn btn-outline-secondary" onclick="addBacon()">Bacon</button>
+                        <button type="button" class="btn btn-outline-secondary" onclick="addChicken()">Chicken</button>
+                        <button type="button" class="btn btn-outline-secondary" onclick="addPepperoni()">Pepperoni</button>
+                        <button type="button" class="btn btn-outline-secondary" onclick="addProsciutto()">Prosciutto</button>
+                        <button type="button" class="btn btn-outline-secondary" onclick="addSausage()">Sausage</button>
+                        <button type="button" class="btn btn-outline-secondary" onclick="addSoppresatta()">Soppresatta</button>
+                    </div>
                 </div>
-                <!-- Button Mania 👇 -->
-                <div style='display: flex; flex-direction: row; flex-wrap: wrap;'> 
-                <button onclick="clearToppings()">clear toppings</button>
-                
-                <button class="btn" onclick="addAnchovies()">🐟</button>
-                
-                <button onclick="addBacon()">add bacon</button>
-                
-                <button onclick="addBroccoli()">add broccoli</button>
-                
-                <button onclick="addCheese()">add cheese</button>
-                
-                <button onclick="addCherryPeppers() ">add cherry peppers</button>
-                
-                <button onclick="addChicken() ">add chicken</button>
-               
-                <button onclick="addGarlic() ">add garlic</button>
-                
-                <button onclick="addMushrooms()">add mushrooms</button>
-                
-                <button onclick="addOnions()">add onions</button>
-                
-                <button onclick="addPepperoni()
-                ">add pepperoni</button>
-                
-                <button onclick="addPeppers()
-                ">add peppers</button>
-                
-                <button onclick="addProsciutto() 
-                ">add prosciutto</button>
-
-                <button onclick="addSausage() 
-                ">add sausage</button>
-                
-                <button onclick="addShrimp() 
-                ">add shrimp</button>
-                
-                <button onclick="addSoppresatta()
-                ">add soppressatta</button>
-                
-                <button onclick="addSpinach() 
-                ">add spinach</button>
+                <div id="byop-toppings">
+                    <h3>Local Veggies</h3>
+                    <div>
+                        <button type="button" class="btn btn-outline-secondary" onclick="addBroccoli()">Broccoli</button>
+                        <button type="button" class="btn btn-outline-secondary" onclick="addCherryPeppers()">Cherry Peppers</button>
+                        <button type="button" class="btn btn-outline-secondary" onclick="addGarlic()">Garlic</button>
+                        <button type="button" class="btn btn-outline-secondary" onclick="addMushrooms()">Mushrooms</button>
+                        <button type="button" class="btn btn-outline-secondary" onclick="addOnions()">Onions</button>
+                        <button type="button" class="btn btn-outline-secondary" onclick="addPeppers()">Peppers</button>
+                        <button type="button" class="btn btn-outline-secondary" onclick="addSpinach()">Spinach</button>
+                    </div>
                 </div>
-
-
+                <div id="byop-toppings">
+                    <h3>Specialty</h3>
+                    <div>
+                        <button type="button" class="btn btn-outline-secondary" onclick="addAnchovies()">Anchovies</button>
+                        <button type="button" class="btn btn-outline-secondary" onclick="addShrimp()">Shrimp</button>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-danger" style='margin-top: 10px; background-color: #e55934; border-color: #e55934;' onclick="clearToppings()">Clear Toppings</button>
           </div>
           </div>
     </div>

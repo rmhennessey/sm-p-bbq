@@ -480,3 +480,10 @@
 .pie-size p {
   margin-right: 15px;
 }
+#byop-toppings h3 {
+  color: #e55934;
+  margin-top: 10px;
+}
+#byop-toppings button {
+  margin: 5px;
+}
