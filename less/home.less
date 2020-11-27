@@ -367,6 +367,12 @@
 #raving-fan {
 	width: 30%;
 	margin-bottom: 15px;
+
+	@media @phone {
+		margin: auto;
+		margin-bottom: 15px;
+		width: 90%;
+	}
 }
 
 #raving-fan-mmm {
@@ -421,23 +427,41 @@
 	height: auto;
 	margin-top: 60px;
 	margin-bottom: 100px;
+
+	@media @phone {
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
 }
 
 #byop-home {
 	display: flex;
 	width: 95%;
 	margin: auto;
+
+	@media @phone {
+		flex-direction: column;
+	}
 }
 
 #byop-home img {
 	width: 65%;
 	margin: auto;
 	border: 2px solid white;
+
+	@media @phone {
+		width: 100%;
+	}
 }
 
 #byop-home .card {
 	text-align: center;
 	padding: 50px;
+
+	@media @phone {
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
 }
 
 #byop-home .card h5 {
