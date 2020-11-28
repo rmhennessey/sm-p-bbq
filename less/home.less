@@ -317,7 +317,7 @@
 
 	@media @tablet {
 		height: 800px;
-		// margin-left: 1rem;
+		padding-top: 60px;
 	}
 
 	@media @laptop {
@@ -327,6 +327,8 @@
 
 #intro-top-img img {
 	@media @tablet {
+		height: 400px;
+		width: 400px;
 	}
 }
 
@@ -339,7 +341,12 @@
 #home-ingredients .row {
 	margin-right: 0px;
 	margin-left: 0;
+
 	@media @phone {
+		flex-direction: column;
+	}
+
+	@media @tablet {
 		flex-direction: column;
 	}
 }
@@ -351,6 +358,9 @@
 
 .moo img {
 	@media @phone {
+		width: 100%;
+	}
+	@media @tablet {
 		width: 100%;
 	}
 }
@@ -369,10 +379,21 @@
 		margin-top: 1.5rem;
 		margin-bottom: 1.5rem;
 	}
+
+	@media @tablet {
+		border-top: 0.75px solid #212a2f;
+		width: 80%;
+		margin-top: 1.5rem;
+		margin-bottom: 1.5rem;
+	}
 }
 
 .moo-copy button {
 	@media @phone {
+		margin-bottom: 50px;
+	}
+
+	@media @tablet {
 		margin-bottom: 50px;
 	}
 }
