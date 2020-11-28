@@ -383,6 +383,11 @@
     width: 100%;
   }
 }
+@media (max-width: 768px) {
+  #pattern iframe {
+    height: 400px;
+  }
+}
 #review {
   display: flex;
   flex-direction: column;
@@ -471,12 +476,22 @@
     flex-direction: column;
   }
 }
+@media (max-width: 768px) {
+  #byop-home {
+    flex-direction: column;
+  }
+}
 #byop-home img {
   width: 65%;
   margin: auto;
   border: 2px solid white;
 }
 @media (max-width: 501px) {
+  #byop-home img {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
   #byop-home img {
     width: 100%;
   }
