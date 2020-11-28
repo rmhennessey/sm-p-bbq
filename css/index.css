@@ -22,7 +22,7 @@
   padding-top: 5px;
   margin-left: 0px;
 }
-@media (max-width: 500px) {
+@media (max-width: 501px) {
   #sm-nav-brand-logo {
     display: flex;
     padding-top: 0.3125rem;
@@ -50,7 +50,7 @@
   border-top: 2px solid #e55934;
   width: 140px;
 }
-@media (max-width: 500px) {
+@media (max-width: 501px) {
   #sm-nav-brand hr {
     margin-left: 13px;
     border-top: 2px solid #e55934;
@@ -61,7 +61,7 @@
 #nav-left {
   width: 33%;
 }
-@media (max-width: 500px) {
+@media (max-width: 501px) {
   #nav-left {
     display: none;
   }
@@ -89,7 +89,7 @@
 #nav-right {
   width: 33%;
 }
-@media (max-width: 500px) {
+@media (max-width: 501px) {
   #nav-right {
     display: none;
   }
@@ -180,7 +180,7 @@
   font-size: 3em;
   color: #212a2f;
 }
-@media (max-width: 500px) {
+@media (max-width: 501px) {
   .email-button-show span {
     display: none;
   }
@@ -195,15 +195,30 @@
   margin-top: 90px;
   margin-bottom: 90px;
 }
-@media (max-width: 500px) {
+@media (max-width: 501px) {
   #intro {
     height: 525px;
     margin-bottom: 40px;
+    text-align: center;
+    flex-direction: column;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 768px) {
+  #intro {
+    margin-bottom: 30px;
+    flex-direction: row;
+    margin-top: 65px;
+  }
+}
+@media (max-width: 501px) {
   #intro-container {
     flex-direction: column;
+    padding-top: 70px;
+  }
+}
+@media (max-width: 768px) {
+  #intro-container {
+    flex-direction: row;
   }
 }
 #intro-top-copy {
@@ -212,15 +227,61 @@
   margin-top: 4rem;
   margin-left: 3.3rem;
 }
-@media (max-width: 500px) {
+@media (max-width: 501px) {
   #intro-top-copy {
     margin-left: 0;
+    padding-top: 100px;
+  }
+}
+@media (max-width: 768px) {
+  #intro-top-copy {
+    text-align: left;
+    margin: auto;
+    margin-top: 2.4rem;
+    padding-top: 20px;
+  }
+}
+@media (max-width: 992px) {
+  #intro-top-copy {
     padding-top: 50px;
   }
 }
-@media (max-width: 500px) {
+#intro-top-copy h1 {
+  font-size: 100px;
+  font-weight: 900;
+}
+@media (max-width: 501px) {
+  #intro-top-copy h1 {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  #intro-top-copy h1 {
+    font-size: 52px;
+  }
+}
+@media (max-width: 992px) {
+  #intro-top-copy h1 {
+    font-size: 78px;
+  }
+}
+#intro-top-img {
+  max-width: 100%;
+  max-height: 85%;
+}
+@media (max-width: 501px) {
   #intro-top-img {
     display: none;
+  }
+}
+@media (max-width: 768px) {
+  #intro-top-img {
+    height: 800px;
+  }
+}
+@media (max-width: 992px) {
+  #intro-top-img {
+    height: 800px;
   }
 }
 #home-ingredients {
@@ -232,7 +293,7 @@
   margin-right: 0px;
   margin-left: 0;
 }
-@media (max-width: 500px) {
+@media (max-width: 501px) {
   #home-ingredients .row {
     flex-direction: column;
   }
@@ -241,7 +302,7 @@
   margin-left: 3rem;
   width: 80%;
 }
-@media (max-width: 500px) {
+@media (max-width: 501px) {
   .moo img {
     width: 100%;
   }
@@ -253,7 +314,7 @@
 .moo-copy hr {
   border-top: 2px solid #212a2f;
 }
-@media (max-width: 500px) {
+@media (max-width: 501px) {
   .moo-copy hr {
     border-top: 0.75px solid #212a2f;
     width: 80%;
@@ -261,7 +322,7 @@
     margin-bottom: 1.5rem;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 501px) {
   .moo-copy button {
     margin-bottom: 50px;
   }
@@ -286,7 +347,7 @@
   padding-top: 50px;
   padding-bottom: 50px;
 }
-@media (max-width: 500px) {
+@media (max-width: 501px) {
   #pattern iframe {
     height: 450px;
     width: 100%;
@@ -306,7 +367,7 @@
   width: 30%;
   margin-bottom: 15px;
 }
-@media (max-width: 500px) {
+@media (max-width: 501px) {
   #raving-fan {
     margin: auto;
     margin-bottom: 15px;
@@ -324,7 +385,7 @@
   font-size: 2.5rem;
   font-weight: 300;
 }
-@media (max-width: 500px) {
+@media (max-width: 501px) {
   .review-container h2 {
     margin-left: 0;
     text-align: center;
@@ -339,7 +400,7 @@
   flex-direction: row;
   justify-content: space-around;
 }
-@media (max-width: 500px) {
+@media (max-width: 501px) {
   #review-cards {
     flex-direction: column;
   }
@@ -347,7 +408,7 @@
 #review-cards .card {
   width: 30%;
 }
-@media (max-width: 500px) {
+@media (max-width: 501px) {
   #review-cards .card {
     width: 90%;
     margin: auto;
@@ -364,7 +425,7 @@
   margin-top: 60px;
   margin-bottom: 100px;
 }
-@media (max-width: 500px) {
+@media (max-width: 501px) {
   #jumbo-menu {
     padding-top: 70px;
     padding-bottom: 70px;
@@ -375,7 +436,7 @@
   width: 95%;
   margin: auto;
 }
-@media (max-width: 500px) {
+@media (max-width: 501px) {
   #byop-home {
     flex-direction: column;
   }
@@ -385,7 +446,7 @@
   margin: auto;
   border: 2px solid white;
 }
-@media (max-width: 500px) {
+@media (max-width: 501px) {
   #byop-home img {
     width: 100%;
   }
@@ -394,7 +455,7 @@
   text-align: center;
   padding: 50px;
 }
-@media (max-width: 500px) {
+@media (max-width: 501px) {
   #byop-home .card {
     padding-top: 25px;
     padding-bottom: 25px;

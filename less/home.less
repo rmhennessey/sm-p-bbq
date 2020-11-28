@@ -245,12 +245,25 @@
 	@media @phone {
 		height: 525px;
 		margin-bottom: 40px;
+		text-align: center;
+		flex-direction: column;
+	}
+
+	@media @tablet {
+		margin-bottom: 30px;
+		flex-direction: row;
+		margin-top: 65px;
 	}
 }
 
 #intro-container {
 	@media @phone {
 		flex-direction: column;
+		padding-top: 70px;
+	}
+
+	@media @tablet {
+		flex-direction: row;
 	}
 }
 
@@ -262,13 +275,58 @@
 
 	@media @phone {
 		margin-left: 0;
+		padding-top: 100px;
+	}
+
+	@media @tablet {
+		text-align: left;
+		margin: auto;
+		margin-top: 2.4rem;
+		padding-top: 20px;
+	}
+
+	@media @laptop {
 		padding-top: 50px;
 	}
 }
 
+#intro-top-copy h1 {
+	font-size: 100px;
+	font-weight: 900;
+
+	@media @phone {
+		text-align: center;
+	}
+
+	@media @tablet {
+		font-size: 52px;
+	}
+
+	@media @laptop {
+		font-size: 78px;
+	}
+}
+
 #intro-top-img {
+	max-width: 100%;
+	max-height: 85%;
+
 	@media @phone {
 		display: none;
+	}
+
+	@media @tablet {
+		height: 800px;
+		// margin-left: 1rem;
+	}
+
+	@media @laptop {
+		height: 800px;
+	}
+}
+
+#intro-top-img img {
+	@media @tablet {
 	}
 }
 
