@@ -6,7 +6,7 @@ window.addEventListener('scroll', function () {
 
 	const showFob = document.getElementById('email-button')
 
-	if (scrollPos > 200) {
+	if (scrollPos > 200 && window.innerWidth >= 501) {
 		hideMe.classList.add('byeByeBanner')
 		showFob.classList.remove('email-button-hidden')
 		showFob.classList.add('email-button-show')
