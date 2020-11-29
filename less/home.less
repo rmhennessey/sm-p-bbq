@@ -344,6 +344,14 @@
 	width: 100%;
 	display: flex;
 	flex-direction: row;
+
+	@media @phone {
+		margin-bottom: 35px;
+	}
+
+	@media @laptop {
+		margin-bottom: 35px;
+	}
 }
 
 #home-ingredients .row {
@@ -361,6 +369,8 @@
 
 	@media @laptop {
 		flex-direction: column;
+		margin-left: 0;
+		margin-right: 0;
 		margin: auto;
 	}
 }
@@ -592,6 +602,10 @@
 
 	@media @laptop {
 		padding: 0px;
+	}
+
+	@media @desktop {
+		padding: 42px;
 	}
 }
 
