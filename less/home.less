@@ -6,14 +6,6 @@
 	z-index: 113;
 }
 
-// #sm-nav .navbar .navbar-expand-lg {
-// 	background-color: white;
-// 	position: fixed;
-// 	top: 0;
-// 	width: 100%;
-// 	z-index: 113;
-// }
-
 #sm-nav-brand {
 	display: flex;
 	flex-direction: column;
@@ -23,7 +15,7 @@
 }
 
 #sm-nav-brand-logo {
-	color: #212a2f;
+	color: @charcoal;
 	font-size: 1.7rem;
 	margin: auto;
 	margin-bottom: 0px;
@@ -31,7 +23,6 @@
 	margin-right: 0;
 	padding-top: 5px;
 	margin-left: 0px;
-	// text-decoration: underline #e55934;
 
 	@media @phone {
 		display: flex;
@@ -57,12 +48,12 @@
 #sm-nav-brand hr {
 	border: 0;
 	margin-top: 1px;
-	border-top: 2px solid #e55934;
+	border-top: 2px solid @fire;
 	width: 140px;
 
 	@media @phone {
 		margin-left: 13px;
-		border-top: 2px solid #e55934;
+		border-top: 2px solid @fire;
 		width: 130px;
 		margin-top: 1px;
 	}
@@ -88,13 +79,13 @@
 	padding-left: 0px;
 
 	:hover {
-		color: #e55934;
+		color: @fire;
 		text-decoration: underline black;
 	}
 }
 
 #nav-left a {
-	color: #212a2f;
+	color: @charcoal;
 }
 
 #nav-right {
@@ -115,16 +106,16 @@
 	margin-bottom: 0px;
 
 	:hover {
-		color: #e55934;
+		color: @fire;
 		text-decoration: underline black;
 	}
 }
 
 #nav-right a {
-	color: #212a2f;
+	color: @charcoal;
 
 	:hover {
-		color: #e55934;
+		color: @fire;
 	}
 }
 
@@ -132,7 +123,7 @@
 	border: none;
 
 	span {
-		color: #e55934;
+		color: @fire;
 
 		:hover {
 			color: gray;
@@ -169,7 +160,7 @@
 	-webkit-box-pack: center;
 	justify-content: center;
 	padding: 0px 12px 2px;
-	background-color: #212a2f;
+	background-color: @charcoal;
 }
 
 .banner-message {
@@ -187,8 +178,7 @@
 }
 
 #main {
-	background-color: #e55934;
-	// height: 3000px;
+	background-color: @fire;
 	display: flex;
 	flex-direction: column;
 }
@@ -202,8 +192,7 @@
 	bottom: 105px;
 	right: 20px;
 	font-size: 3em;
-	// color: white;
-	color: #212a2f;
+	color: @charcoal;
 
 	@media @phone {
 		display: none;
@@ -214,27 +203,6 @@
 	margin-bottom: 0.5rem;
 	background-color: transparent;
 }
-
-// #intro-hero {
-// 	margin-top: 15px;
-// 	height: 70vh;
-// }
-
-// #intro-hero img {
-// 	width: 100%;
-// 	height: 120vh;
-
-// 	@media @phone {
-// 		height: 95vh;
-// 	}
-// }
-
-// #intro-hero h1 {
-// 	position: absolute;
-// 	bottom: 30px;
-// 	left: 40px;
-// 	color: white;
-// }
 
 #intro {
 	height: 80vh;
@@ -323,7 +291,6 @@
 	}
 
 	@media @tablet {
-		// height: 800px;
 		height: auto;
 		padding-top: 60px;
 	}
@@ -389,12 +356,6 @@
 		margin: auto;
 		width: auto;
 	}
-
-	// @media @laptop {
-	// 	padding-bottom: 35px;
-	// 	margin: auto;
-	// 	width: auto;
-	// }
 }
 
 .moo img {
@@ -415,24 +376,6 @@
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
-
-// .moo-copy hr {
-// 	border-top: 2px solid #212a2f;
-
-// 	@media @phone {
-// 		border-top: 0.75px solid #212a2f;
-// 		width: 80%;
-// 		margin-top: 1.5rem;
-// 		margin-bottom: 1.5rem;
-// 	}
-
-// 	@media @tablet {
-// 		border-top: 0.75px solid #212a2f;
-// 		width: 80%;
-// 		margin-top: 1.5rem;
-// 		margin-bottom: 1.5rem;
-// 	}
-// }
 
 .moo-copy button {
 	@media @phone {
@@ -456,7 +399,6 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	// height: 600px;
 	width: 100%;
 	margin-bottom: 40px;
 	display: flex;
@@ -476,10 +418,6 @@
 		height: 400px;
 	}
 }
-
-// #home-ingredients .ingredients-copy {
-// 	margin: auto;
-// }
 
 #review {
 	display: flex;
@@ -622,7 +560,7 @@
 
 #byop-home .card hr {
 	width: 100%;
-	border-top: 1px solid #e55934;
+	border-top: 1px solid @fire;
 
 	@media @tablet {
 		width: 60%;
@@ -664,10 +602,9 @@
 	height: 90px;
 	background-color: white;
 	text-align: center;
-	// border-top: 2px solid #212a2f;
 }
 
 #footer p {
 	padding-top: 20px;
-	color: #212a2f;
+	color: @charcoal;
 }
