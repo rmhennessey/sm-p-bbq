@@ -815,3 +815,8 @@
   text-align: center;
   font-size: 4rem;
 }
+@media (max-width: 501px) {
+  #farmer-rev-card {
+    flex-direction: column-reverse;
+  }
+}
