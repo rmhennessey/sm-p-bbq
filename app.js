@@ -22,6 +22,11 @@ $(function () {
 	$('[data-toggle="tooltip"]').tooltip()
 })
 
+// Popover functionality
+$(function () {
+	$('[data-toggle="popover"]').popover()
+})
+
 // Add Pizza Toppings
 
 let ingredients = []
