@@ -763,7 +763,7 @@
 #ingredients .jumbotron {
   margin: auto;
 }
-#ingredients img {
+#map {
   width: 450px;
   height: 450px;
 }
@@ -810,4 +810,8 @@
   left: 49%;
   background-color: #e55934;
   border-color: #e55934;
+}
+#ingredients h1 {
+  text-align: center;
+  font-size: 4rem;
 }
