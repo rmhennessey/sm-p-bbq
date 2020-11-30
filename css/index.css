@@ -750,7 +750,7 @@
 #ingredients {
   width: 80%;
   margin: auto;
-  margin-top: 80px;
+  margin-top: 85px;
   display: flex;
   flex-direction: column;
 }
@@ -764,6 +764,50 @@
   margin: auto;
 }
 #ingredients img {
-  width: 500px;
-  height: 500px;
+  width: 450px;
+  height: 450px;
+}
+#farm-cheese {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  position: absolute;
+  top: 85%;
+  left: 35%;
+  background-color: #e55934;
+  border-color: #e55934;
+}
+#farm-chicken {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  position: absolute;
+  top: 53%;
+  left: 52%;
+  background-color: #e55934;
+  border-color: #e55934;
+}
+#farm-pork {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  position: absolute;
+  top: 60%;
+  left: 42%;
+  background-color: #e55934;
+  border-color: #e55934;
+}
+#farm-veggies {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  position: absolute;
+  top: 65%;
+  left: 49%;
+  background-color: #e55934;
+  border-color: #e55934;
 }
