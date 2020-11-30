@@ -750,7 +750,18 @@
 #ingredients {
   width: 80%;
   margin: auto;
-  margin-top: 150px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 501px) {
+  #ingredients {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+#ingredients .jumbotron {
+  margin: auto;
 }
 #ingredients img {
   width: 500px;
