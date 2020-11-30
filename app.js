@@ -27,6 +27,15 @@ $(function () {
 	$('[data-toggle="popover"]').popover()
 })
 
+// Scrollspy on Ingredients Page
+var offset = 90
+
+$('#ingredients a').click(function (event) {
+	event.preventDefault()
+	$($(this).attr('href'))[0].scrollIntoView()
+	scrollBy(0, -offset)
+})
+
 // Add Pizza Toppings
 
 let ingredients = []
