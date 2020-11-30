@@ -644,6 +644,7 @@
 #main-menu {
   margin: auto;
   margin-top: 140px;
+  margin-bottom: 120px;
 }
 .hr-intro {
   border-top: 2px solid #212a2f;
@@ -745,4 +746,13 @@
 }
 #byop-toppings button {
   margin: 5px;
+}
+#ingredients {
+  width: 80%;
+  margin: auto;
+  margin-top: 150px;
+}
+#ingredients img {
+  width: 500px;
+  height: 500px;
 }
