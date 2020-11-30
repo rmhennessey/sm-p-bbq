@@ -608,12 +608,24 @@
   margin: auto;
   margin-top: 150px;
 }
+@media (max-width: 501px) {
+  #story {
+    width: 90%;
+    margin-top: 90px;
+  }
+}
 .story-intro {
-  background-image: url('../assets/Smokey_Moses_Pizza_BBQ_New_Hampshire.jpeg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 80vh;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@media (max-width: 501px) {
+  .story-intro {
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+}
+.story-intro img {
+  width: 100%;
 }
 .story-intro-card {
   border: none;
@@ -631,6 +643,7 @@
 }
 .story-intro-card p {
   margin-top: 14px;
+  text-align: justify;
 }
 .story-intro-card a {
   color: #212a2f;
@@ -801,6 +814,16 @@
     left: 31%;
   }
 }
+@media (max-width: 768px) {
+  #farm-cheese {
+    left: 30%;
+  }
+}
+@media (max-width: 992px) {
+  #farm-cheese {
+    left: 36%;
+  }
+}
 #farm-chicken {
   width: 30px;
   height: 30px;
@@ -816,6 +839,11 @@
   #farm-chicken {
     top: 48%;
     left: 53%;
+  }
+}
+@media (max-width: 501px) {
+  #farm-chicken {
+    left: 54%;
   }
 }
 #farm-pork {
@@ -835,6 +863,11 @@
     left: 38%;
   }
 }
+@media (max-width: 768px) {
+  #farm-pork {
+    left: 39%;
+  }
+}
 #farm-veggies {
   width: 30px;
   height: 30px;
@@ -852,6 +885,11 @@
     left: 48%;
   }
 }
+@media (max-width: 768px) {
+  #farm-veggies {
+    left: 49%;
+  }
+}
 #ingredients h1 {
   text-align: center;
   font-size: 4rem;
@@ -862,10 +900,8 @@
     margin-bottom: 25px;
   }
 }
-@media (max-width: 501px) {
-  #farmer-rev-card {
-    flex-direction: column-reverse;
-  }
+#farmer-rev-card {
+  flex-direction: column-reverse;
 }
 @media (max-width: 501px) {
   #ingredients hr {
@@ -873,6 +909,11 @@
   }
 }
 @media (max-width: 501px) {
+  .card-title {
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 768px) {
   .card-title {
     margin-top: 1rem;
   }

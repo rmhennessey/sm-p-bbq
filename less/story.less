@@ -6,14 +6,25 @@
 	width: 80%;
 	margin: auto;
 	margin-top: 150px;
+
+	@media @phone {
+		width: 90%;
+		margin-top: 90px;
+	}
 }
 
 .story-intro {
-	background-image: url('../assets/Smokey_Moses_Pizza_BBQ_New_Hampshire.jpeg');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 80vh;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	@media @phone {
+		padding-top: 10px;
+		padding-bottom: 5px;
+	}
+}
+
+.story-intro img {
+	width: 100%;
 }
 
 .story-intro-card {
@@ -36,6 +47,7 @@
 
 .story-intro-card p {
 	margin-top: 14px;
+	text-align: justify;
 }
 
 .story-intro-card a {
