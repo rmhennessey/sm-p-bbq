@@ -872,3 +872,8 @@
     display: none;
   }
 }
+@media (max-width: 501px) {
+  .card-title {
+    margin-top: 1rem;
+  }
+}
