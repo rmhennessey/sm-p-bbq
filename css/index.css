@@ -747,6 +747,11 @@
 #byop-toppings button {
   margin: 5px;
 }
+#main-ingredients {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
 #ingredients {
   width: 80%;
   margin: auto;
@@ -756,16 +761,28 @@
 }
 @media (max-width: 501px) {
   #ingredients {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: auto;
   }
 }
 #ingredients .jumbotron {
   margin: auto;
 }
+@media (max-width: 501px) {
+  #ingredients .jumbotron {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+  }
+}
 #map {
   width: 450px;
   height: 450px;
+}
+@media (max-width: 501px) {
+  #map {
+    width: 100%;
+    height: auto;
+  }
 }
 #farm-cheese {
   width: 30px;
@@ -778,6 +795,12 @@
   background-color: #e55934;
   border-color: #e55934;
 }
+@media (max-width: 501px) {
+  #farm-cheese {
+    top: 69%;
+    left: 31%;
+  }
+}
 #farm-chicken {
   width: 30px;
   height: 30px;
@@ -788,6 +811,12 @@
   left: 53%;
   background-color: #e55934;
   border-color: #e55934;
+}
+@media (max-width: 501px) {
+  #farm-chicken {
+    top: 48%;
+    left: 53%;
+  }
 }
 #farm-pork {
   width: 30px;
@@ -800,6 +829,12 @@
   background-color: #e55934;
   border-color: #e55934;
 }
+@media (max-width: 501px) {
+  #farm-pork {
+    top: 49%;
+    left: 38%;
+  }
+}
 #farm-veggies {
   width: 30px;
   height: 30px;
@@ -811,12 +846,29 @@
   background-color: #e55934;
   border-color: #e55934;
 }
+@media (max-width: 501px) {
+  #farm-veggies {
+    top: 57%;
+    left: 48%;
+  }
+}
 #ingredients h1 {
   text-align: center;
   font-size: 4rem;
 }
 @media (max-width: 501px) {
+  #ingredients h1 {
+    font-size: 3.5rem;
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 501px) {
   #farmer-rev-card {
     flex-direction: column-reverse;
+  }
+}
+@media (max-width: 501px) {
+  #ingredients hr {
+    display: none;
   }
 }

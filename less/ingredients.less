@@ -1,3 +1,9 @@
+#main-ingredients {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+
 #ingredients {
 	width: 80%;
 	margin: auto;
@@ -6,18 +12,28 @@
 	flex-direction: column;
 
 	@media @phone {
-		margin-left: 10px;
-		margin-right: 10px;
+		margin: auto;
 	}
 }
 
 #ingredients .jumbotron {
 	margin: auto;
+
+	@media @phone {
+		display: flex;
+		flex-direction: column;
+		margin-top: 90px;
+	}
 }
 
 #map {
 	width: 450px;
 	height: 450px;
+
+	@media @phone {
+		width: 100%;
+		height: auto;
+	}
 }
 
 #farm-cheese {
@@ -30,6 +46,11 @@
 	left: 40%;
 	background-color: @fire;
 	border-color: @fire;
+
+	@media @phone {
+		top: 69%;
+		left: 31%;
+	}
 }
 
 #farm-chicken {
@@ -42,7 +63,13 @@
 	left: 53%;
 	background-color: @fire;
 	border-color: @fire;
+
+	@media @phone {
+		top: 48%;
+		left: 53%;
+	}
 }
+
 #farm-pork {
 	width: 30px;
 	height: 30px;
@@ -53,6 +80,11 @@
 	left: 44%;
 	background-color: @fire;
 	border-color: @fire;
+
+	@media @phone {
+		top: 49%;
+		left: 38%;
+	}
 }
 
 #farm-veggies {
@@ -65,15 +97,31 @@
 	left: 49%;
 	background-color: @fire;
 	border-color: @fire;
+
+	@media @phone {
+		top: 57%;
+		left: 48%;
+	}
 }
 
 #ingredients h1 {
 	text-align: center;
 	font-size: 4rem;
+
+	@media @phone {
+		font-size: 3.5rem;
+		margin-bottom: 25px;
+	}
 }
 
 #farmer-rev-card {
 	@media @phone {
 		flex-direction: column-reverse;
+	}
+}
+
+#ingredients hr {
+	@media @phone {
+		display: none;
 	}
 }
