@@ -815,7 +815,7 @@
 }
 @media (max-width: 768px) {
   #farm-cheese {
-    left: 30%;
+    display: none;
   }
 }
 @media (max-width: 992px) {
@@ -839,9 +839,9 @@
     display: none;
   }
 }
-@media (max-width: 501px) {
+@media (max-width: 768px) {
   #farm-chicken {
-    left: 54%;
+    display: none;
   }
 }
 #farm-pork {
@@ -862,7 +862,7 @@
 }
 @media (max-width: 768px) {
   #farm-pork {
-    left: 39%;
+    display: none;
   }
 }
 #farm-veggies {
@@ -883,7 +883,7 @@
 }
 @media (max-width: 768px) {
   #farm-veggies {
-    left: 49%;
+    display: none;
   }
 }
 #ingredients h1 {
