@@ -810,8 +810,7 @@
 }
 @media (max-width: 501px) {
   #farm-cheese {
-    top: 69%;
-    left: 31%;
+    display: none;
   }
 }
 @media (max-width: 768px) {
@@ -837,8 +836,7 @@
 }
 @media (max-width: 501px) {
   #farm-chicken {
-    top: 48%;
-    left: 53%;
+    display: none;
   }
 }
 @media (max-width: 501px) {
@@ -859,8 +857,7 @@
 }
 @media (max-width: 501px) {
   #farm-pork {
-    top: 49%;
-    left: 38%;
+    display: none;
   }
 }
 @media (max-width: 768px) {
@@ -881,8 +878,7 @@
 }
 @media (max-width: 501px) {
   #farm-veggies {
-    top: 57%;
-    left: 48%;
+    display: none;
   }
 }
 @media (max-width: 768px) {
